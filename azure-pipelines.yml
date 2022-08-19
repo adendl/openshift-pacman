@@ -10,6 +10,8 @@ resources:
 
 variables:
   tag: '$(Build.BuildId)'
+  registry: 'quay.io/adeleeuw'
+  repository: 'pacman'
 
 stages:
 - stage: Build
@@ -23,7 +25,9 @@ stages:
     - task: Docker@2
       displayName: Build an image
       inputs:
-        command: build
+        command: buildAndPush
+        repository: $(repository)
         dockerfile: '$(Build.SourcesDirectory)/docker/Dockerfile'
+        containerRegistry: $(registry)
         tags: |
           $(tag)
