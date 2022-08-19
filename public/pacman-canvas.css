@@ -12,8 +12,8 @@
 /* ---------------- */
 
 body {
-    background-color: #00FF00;
-    color: red;
+    background-color: purple;
+    color: purple;
     font-family: 'Press Start 2P', cursive;
 }
 
@@ -21,7 +21,7 @@ body {
 /* Links */
 .main a, .main a:link, .main a:active, .main a:visited {
     padding: 5px;
-    background: #00FF00;
+    background: purple;
     color: rgb(255, 255, 255);
 }
 * { box-shadow: none !important; }
@@ -42,7 +42,7 @@ body {
     float: right;
 }
 .button {
-    background: #00FF00;
+    background: purple;
     cursor: pointer;
     padding: 8px;
     }
