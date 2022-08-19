@@ -12,7 +12,7 @@
 /* ---------------- */
 
 body {
-    background-color: #8F3985;
+    background-color: #00FF00;
     color: white;
     font-family: 'Press Start 2P', cursive;
 }
@@ -59,7 +59,7 @@ body {
 
 #highscore-form { margin-top: 8px; }
 input[type="text"]:hover, input[type="text"]:focus, input[type="password"]:hover, input[type="password"]:focus, textarea:hover, textarea:focus {
-    border: 1px ##00FF00 solid;
+    border: 1px #00FF00 solid;
 }
 
 table, th {
@@ -186,7 +186,7 @@ audio {display: block; }
     width: 90px;
     height: 90px;
     margin: 5px;
-    background: none repeat scroll 0% 0% #2DA44E;
+    background: none repeat scroll 0% 0% #00FF00;
     line-height: 70px;
     border-radius: 50%;
     font-weight: bold;
@@ -194,7 +194,7 @@ audio {display: block; }
     cursor: pointer;
 }
 .controlButton:hover, .controlButton:active {
-    background: #c00202;
+    background: #00FF00;
 }
 
 .description { display: none; }
