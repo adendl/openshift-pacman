@@ -28,6 +28,6 @@ stages:
         command: buildAndPush
         repository: $(repository)
         dockerfile: '$(Build.SourcesDirectory)/docker/Dockerfile'
-        containerRegistry: $(quay)
+        containerRegistry: quay
         tags: |
           $(tag)
