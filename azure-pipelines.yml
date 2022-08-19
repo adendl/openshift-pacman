@@ -11,7 +11,7 @@ resources:
 variables:
   tag: '$(Build.BuildId)'
   registry: 'quay.io/adeleeuw'
-  repository: 'pacman'
+  repository: 'pacmantiger'
 
 stages:
 - stage: Build
